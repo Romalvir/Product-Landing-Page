@@ -1,0 +1,94 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8">
+	<title>Landing page edit</title>
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<link rel="stylesheet" type="text/css" href="styles.css">
+	<link rel="stylesheet" type="text/css" href="simple-lightbox.css">
+	<link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@200&display=swap" rel="stylesheet">
+
+</head>
+<body id="home">
+
+	<nav class="navbar">
+		<div class="container">
+			<h1 class="logo">Drone</h1>
+			<ul class="nav">
+				<li><a href="#home">Home</a></li>
+				<li><a href="#about">About</a></li>
+			</ul>
+		</div>
+	</nav>
+
+<!-- Showcase -->
+
+<section class="section-a">
+	<div class="container">
+		<div>
+			<h1>Drone of the future!</h1>
+			<p> ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
+			tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam,
+			quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo
+			consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse
+			cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non
+			proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
+			<a href="#" class="btn">Read More</a>
+		</div>
+		<img src="img/9.jpg" alt="mavic mini">
+		
+	</div>
+</section>
+
+<!-- Overlay text -->
+
+<section class="section-b">
+	
+	<div class="overlay">
+		<div class="section-b-inner">
+			<h3>Loud & clear</h3>
+			<h2>People arent hearing all the music</h2>
+			<p> ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
+			tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam,
+			quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo
+			consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse
+			cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non
+			proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
+		</div>
+	</div>
+
+</section>
+
+<!-- GALLERY -->
+
+<section class="section-c">
+	<div class="gallery">
+		<a href="img/1.jpg" class="big"><img src="img/1.jpg" alt="forest"></a>
+		<a href="img/2.jpg" class="big"><img src="img/2.jpg" alt="water"></a>
+
+		<a href="img/4.jpg" class="big"><img src="img/4.jpg" alt="asphalt"></a>
+		<a href="img/5.jpg" class="big"><img src="img/5.jpg" alt="remote"></a>
+		<a href="img/6.jpg" class="big"><img src="img/6.jpg" alt="capsule"></a>
+	</div>
+</section>
+
+
+
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+
+<script src="simple-lightbox.js"></script>
+
+<!-- Initiated script below -->
+<script>
+
+$(function() {
+	const $gallery = $('.gallery a').simpleLightbox();
+});
+
+</script>
+
+
+
+
+</body>
+</html>
